@@ -2483,6 +2483,24 @@ html.no-csstransitions .home-content__main {
     display: none;
 }
 
+.item-folio__new-text {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    bottom: 7rem;
+    padding: 0 3rem;
+    z-index: 2;
+    display: none;
+
+}
+
+.item-folio:hover .item-folio__new-text {
+    display: block;
+}
+
 .item-folio__project-link {
     display: block;
     color: #FFFFFF;
@@ -2521,6 +2539,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:hover, .item-folio__project-link:focus, .item-folio__project-link:active {
     background-color: #FFFFFF;
     color: #000000;
+
 }
 
 
@@ -2530,6 +2549,7 @@ html.no-csstransitions .home-content__main {
     opacity: 1;
     visibility: visible;
 }
+
 
 .item-folio:hover .item-folio__thumb a::after {
     opacity: 1;
@@ -2676,7 +2696,7 @@ html.no-csstransitions .home-content__main {
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    z-index: 2;
+    z-index: ;
 }
 
 .testimonials__slider .slick-arrow .im {
@@ -3042,7 +3062,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/fond_bas_page.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem;
