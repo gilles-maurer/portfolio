@@ -50,9 +50,9 @@
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#mes_besoins" title="mes_besoins">Mes besoins</a></li>
-                <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                <li><a class="smoothscroll"  href="#mes_besoins" title="mes besoins">Mes besoins</a></li>
+                <li><a class="smoothscroll"  href="#works" title="mes projets">Mes Projets</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="merci">Merci</a></li>
             </ul>
         </nav>
 
@@ -63,7 +63,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/fond_haut_page.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -99,16 +99,16 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.linkedin.com/in/gilles-maurer-06478a20b/"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a href="https://www.linkedin.com/in/gilles-maurer-06478a20b/" target="_blank"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
             </li>
             <li>
-                <a href="https://github.com/gilles-maurer"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
+                <a href="https://github.com/gilles-maurer" target="_blank"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/gilles_mr/"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                <a href="https://www.instagram.com/gilles_mr/" target="_blank"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
             <li>
-                <a href="mailto:gilles.maurer@utbm.fr"><i class="im im-mail" aria-hidden="true"></i><span>Mail</span></a>
+                <a href="mailto:gilles.maurer@utbm.fr" target="_blank"><i class="im im-mail" aria-hidden="true"></i><span>Mail</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -238,7 +238,7 @@
     </section> <!-- end about -->
     
 
-    <!-- works
+<!-- works
     ================================================== -->
     <section id="works" class="s-about target-section">
 
@@ -257,24 +257,57 @@
                 <div class="masonry__brick">
                     <div class="item-folio">
 
+                    	<a href="https://linktr.ee/macao_database" target="_blank" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/beetle.jpg" 
-                                     srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/petite_1-2.jpg" class="thumb-link" title="The Beetle Car" data-size="1000x1000">
+                                <img src="images/portfolio/petite_1-1.jpg" 
+                                     srcset="images/portfolio/petite_1-1.jpg 1x, images/portfolio/petite_1-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                The Beetle
+                                Airtable
                             </h3>
                             <p class="item-folio__cat">
-                                Web Development
+                                BDD sans code
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/grande_1-2.jpg" class="thumb-link" title="Lighthouse" data-size="1000x1250">
+                                <img src="images/portfolio/grande_1-1.jpg" 
+                                     srcset="images/portfolio/grande_1-1.jpg 1x, images/portfolio/grande_1-2.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Tetris
+                            </h3>
+                            <p class="item-folio__cat">
+                                C
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/gilles-maurer/c/tree/main/Tetris" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
@@ -289,29 +322,29 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/lighthouse.jpg" 
-                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/petite_2-2.jpg" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/petite_2-1.jpg" 
+                                     srcset="images/portfolio/petite_2-1.jpg 1x, images/portfolio/petite_2-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Lighthouse
+                                Club de Badminton
                             </h3>
                             <p class="item-folio__cat">
-                                Web Design
+                                HTML - PHP - SQL
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
-                        </a>
+                        </a> -->
 
-                        <div class="item-folio__caption">
+                        <span class="item-folio__caption">
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
+                        </span>
 
                     </div> <!-- end item-folio -->
                 </div> <!-- end masonry__brick -->
@@ -320,23 +353,23 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg" 
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/grande_2-2.jpg" class="thumb-link" data-size="1000x1250">
+                                <img src="images/portfolio/grande_2-1.jpg"
+                                     srcset="images/portfolio/grande_2-1.jpg 1x, images/portfolio/grande_2-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Salad
+                                Traitement d'images
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                Python
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <a href="https://github.com/gilles-maurer/python/tree/main/traitement%20d'image" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
@@ -351,23 +384,23 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/grande_3-2.jpg" class="thumb-link" data-size="1000x1250">
+                                <img src="images/portfolio/grande_3-1.jpg"
+                                     srcset="images/portfolio/grande_3-1.jpg 1x, images/portfolio/grande_3-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Woodcraft
+                                Problème du voyageur de commerce
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                Python
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <a href="https://github.com/gilles-maurer/python/tree/main/travelling%20salesman%20problem" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
@@ -382,23 +415,23 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/skaterboy.jpg"
-                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/grande_4-2.jpg" class="thumb-link" data-size="1000x1250">
+                                <img src="images/portfolio/grande_4-1.jpg"
+                                     srcset="images/portfolio/grande_4-1.jpg 1x, images/portfolio/grande_4-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Skaterboy
+                                Traitement de texte
                             </h3>
                             <p class="item-folio__cat">
-                                Web Development
+                                C
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <a href="https://github.com/gilles-maurer/c/tree/main/Text%20Processing" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
@@ -413,23 +446,23 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/petite_3-2.jpg" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/petite_3-1.jpg"
+                                     srcset="images/portfolio/petite_3-1.jpg 1x, images/portfolio/petite_3-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Liberty
+                                Tout de Hanoi
                             </h3>
                             <p class="item-folio__cat">
-                                Branding
+                                C
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <a href="https://github.com/gilles-maurer/c/tree/main/Tower%20of%20Hanoi" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
                         </a>
 
@@ -444,56 +477,25 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/minimalismo.jpg"
-                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                            <a href="images/portfolio/petite_4-2.jpg" class="thumb-link" data-size="1000x1000">
+                                <img src="images/portfolio/petite_4-1.jpg"
+                                     srcset="images/portfolio/petite_4-1.jpg 1x, images/portfolio/petite_4-2.jpg 2x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Minimalismo
+                                Système Anti Intrusion
                             </h3>
                             <p class="item-folio__cat">
-                                Web Design
+                                Arduino
                             </p>
                         </div>
 
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                             <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
+                        </a> -->
 
                         <span class="item-folio__caption">
                             <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
@@ -506,6 +508,7 @@
         </div> <!-- end masonry -->
 
     </section> <!-- end works -->
+
 
 
 
@@ -564,7 +567,7 @@
 
     <!-- blog
     ================================================== -->
-    <section id="blog" class="s-blog target-section">
+    <!-- <section id="blog" class="s-blog target-section">
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
@@ -643,38 +646,13 @@
                             <a href="blog.html">Design</a><a href="blog.html">Branding</a>
                         </div>
                     </article>
-                </div> <!-- end blog-list -->
+                </div> --> <!-- end blog-list -->
 
-            </div> <!-- end col-full -->
-        </div> <!-- end blog-content -->
+           <!--  </div>  --><!-- end col-full -->
+        <!-- </div> --> <!-- end blog-content -->
 
-    </section> <!-- end s-blog -->
+   <!--  </section> --> <!-- end s-blog -->
 
-
-    <!-- s-cta
-    ================================================== -->
-    <section class="s-cta">
-        
-        <div class="row narrow cta">
-
-            <div class="col-full cta__content">
-
-                <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
-
-                <p class="lead">
-                Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
-                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
-                </p>
-
-                <div class="cta__action">
-                    <a class="btn btn--primary btn--large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
-                </div>	
-
-            </div>
-
-        </div> <!-- end cta -->
-        
-    </section>
 
 
     <!-- s-stats
@@ -722,15 +700,15 @@
 
         <div class="row narrow section-intro">
             <div class="col-full">
-                <h3>Contact</h3>
-                <h1>Say Hello.</h1>
+                <h3>Conclusion</h3>
+                <h1>Merci d'être arrivé ici</h1>
                 
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                <p class="lead">Merci d'avoir lu ce portfolio, si mon profil vous intéresses vous pouvez m'ajouter sur LinkedIn afin de pouvoir être tenu au courant des mes futures recherches d'emplois. Vous pouvez aussi simplement me contacter pour me faire des retours sur ce portfolio et ainsi me permettre de l'améliorer.</p>
             </div>
         </div>
 
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
+     <!--    <div class="row contact__main"> -->
+<!--             <div class="col-eight tab-full contact__form">
                 <form name="contactForm" id="contactForm" method="post" action="">
                     <fieldset>
     
@@ -759,28 +737,30 @@
                     </div>
     
                     </fieldset>
-                </form>
+                </form> -->
 
                 <!-- contact-warning -->
-                <div class="message-warning">
+                <!-- <div class="message-warning">
                     Something went wrong. Please try again.
                 </div> 
-            
+             -->
                 <!-- contact-success -->
-                <div class="message-success">
+<!--                 <div class="message-success">
                     Your message was sent, thank you!<br>
                 </div>
                         
-            </div>
-            <div class="col-four tab-full contact__infos">
+            </div> -->
+<!--             <div class="col-four tab-full contact__infos">
                 <h4 class="h06">Téléphone</h4>
                 <p>+33 6 52 98 72 72
                 </p>
-
+            </div>
+            <div class="col-four tab-full contact__infos">
                 <h4 class="h06">Email</h4>
                 <p>gilles.maurer@utbm.fr
                 </p>
-
+			</div>
+			<div class="col-four tab-full contact__infos">
                 <h4 class="h06">Address</h4>
                 <p>
                 34 rue de l'Ardèche<br>
@@ -788,8 +768,8 @@
                 68270 France
                 </p>
             </div>
-
-        </div>
+ -->
+        <!-- </div> -->
 
     </section> <!-- end s-contact -->
 
@@ -805,19 +785,19 @@
                 </div>
 
                 <ul class="footer-social">
-                    <li><a href="#https://www.linkedin.com/in/gilles-maurer-06478a20b/">
+                    <li><a href="https://www.linkedin.com/in/gilles-maurer-06478a20b/" target="_blank">
                         <i class="im im-linkedin" aria-hidden="true"></i>
                         <span>LinkedIn</span>
                     </a></li>
-                    <li><a href="https://github.com/gilles-maurer">
+                    <li><a href="https://github.com/gilles-maurer" target="_blank">
                         <i class="im im-github" aria-hidden="true"></i>
                         <span>GitHub</span>
                     </a></li>
-                    <li><a href="https://www.instagram.com/gilles_mr/">
+                    <li><a href="https://www.instagram.com/gilles_mr/" target="_blank">
                         <i class="im im-instagram" aria-hidden="true"></i>
                         <span>Instagram</span>
                     </a></li>
-                    <li><a href="mailto:gilles.maurer@utbm.fr">
+                    <li><a href="mailto:gilles.maurer@utbm.fr" target="_blank">
                         <i class="im im-mail" aria-hidden="true"></i>
                         <span>Mail</span>
                     </a></li>
