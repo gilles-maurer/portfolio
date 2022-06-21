@@ -146,7 +146,7 @@
 
     /* photoswipe
      * ----------------------------------------------------- */
-    var ssPhotoswipe = function() {
+/*    var ssPhotoswipe = function() {
         var items = [],
             $pswp = $('.pswp')[0],
             $folioItems = $('.item-folio');
@@ -196,7 +196,7 @@
             });
 
     };
-
+*/
 
     /* slick slider
      * ------------------------------------------------------ */
@@ -300,7 +300,7 @@
     var ssSmoothScroll = function() {
 
         $('.smoothscroll').on('click', function (e) {
-            var target = this.hash,
+            var target = this.hash, /* probablement l'url */ 
             $target    = $(target);
         
             e.preventDefault();
@@ -309,7 +309,7 @@
             $('html, body').stop().animate({
                 'scrollTop': $target.offset().top
             }, cfg.scrollDuration, 'swing', function () {
-                window.location.hash = target;
+                window.location.hash = target; /* modifie l'url */
             });
 
         });
@@ -418,8 +418,8 @@
         ssMoveHeader();
         ssMobileMenu();
         ssMasonryFolio();
-        ssPhotoswipe();
-        ssSlickSlider();
+/*        ssPhotoswipe();
+*/        ssSlickSlider();
         ssWaypoints();
         ssStatCount();
         ssSmoothScroll();
