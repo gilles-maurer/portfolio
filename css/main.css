@@ -2431,7 +2431,6 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-    content: "...";
     font-family: georgia, serif;
     font-size: 3rem;
     display: block;
@@ -2536,6 +2535,30 @@ html.no-csstransitions .home-content__main {
     left: -3rem;
 }
 
+.item-folio__resume {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    height: 250px;
+    width: 250px;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-top: 0px;
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    z-index: 1;
+}
+
 .item-folio__project-link:hover, .item-folio__project-link:focus, .item-folio__project-link:active {
     background-color: #FFFFFF;
     color: #000000;
@@ -2572,6 +2595,15 @@ html.no-csstransitions .home-content__main {
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+.item-folio:hover .item-folio__resume {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
 
 
 /* ------------------------------------------------------------------- 
