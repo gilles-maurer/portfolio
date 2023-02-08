@@ -2539,15 +2539,15 @@ html.no-csstransitions .home-content__main {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
     display: block;
-    height: 250px;
-    width: 250px;
-    line-height: 30px;
-    margin-left: 50px;
-    margin-top: 0px;
+    height: 40%; /* text take 40% of the height of the image */ 
+    width: 70%; /* text take 70% of the width of the image */
+    line-height: 25px; /* space between lines */
+    margin-left: 15%; /* marge à gauche de 15% */
+    margin-top: 30%; /* marge en haut de 30% */
     position: absolute;
-    left: 0%;
-    top: 25%;
-    text-align: center;
+    left: 0%; /* décalage à gauche de 0% */
+    top: 0%; /* décalage en haut de 0% */
+    text-align: center; /* alignement du texte au centre */
     color: #FFFFFF;
     opacity: 0;
     visibility: hidden;
